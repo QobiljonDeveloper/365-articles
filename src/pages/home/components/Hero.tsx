@@ -1,9 +1,9 @@
 import { memo } from "react";
 import { Button } from "@/components/ui/button";
 import IlhomMuratovich from "@/assets/images/ilhom-muratovich.jpg";
-import AbduqahhorErgashaliyev from "@/assets/images/abduqahhor-ergashaliyev.jpg";
+import AbduqahhorErgashaliyev from "@/assets/images/brodari-aziz.jpg";
 import Jingale from "@/assets/images/jingale.jpg";
-import ZorRasm from "@/assets/images/zorRasm.jpg";
+import ZorRasm from "@/assets/images/ustoz.jpg";
 
 const Hero = () => {
   return (

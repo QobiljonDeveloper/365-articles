@@ -83,8 +83,8 @@ export default function IeltsWizard() {
               className={`p-6 cursor-pointer transition border rounded-2xl flex flex-col items-center
                 ${
                   focus === item.label
-                    ? "border-accent bg-accent/10"
-                    : "border-gray-700 hover:border-accent"
+                    ? "border-accent bg-accent/10 text-accent"
+                    : "border-gray-700 hover:border-accent text-accent"
                 }`}
             >
               {item.icon}
@@ -108,8 +108,8 @@ export default function IeltsWizard() {
               className={`p-6 cursor-pointer transition border rounded-2xl text-xl sm:text-2xl text-center
                 ${
                   level === lvl
-                    ? "border-accent bg-accent/10"
-                    : "border-gray-700 hover:border-accent"
+                    ? "border-accent bg-accent/10 text-accent"
+                    : "border-gray-700 hover:border-accent text-accent"
                 }`}
             >
               {lvl}
@@ -129,8 +129,8 @@ export default function IeltsWizard() {
                 className={`p-6 cursor-pointer transition border rounded-2xl text-xl sm:text-2xl text-center
                   ${
                     exam === t
-                      ? "border-accent bg-accent/10"
-                      : "border-gray-700 hover:border-accent"
+                      ? "border-accent bg-accent/10 text-accent"
+                      : "border-gray-700 hover:border-accent text-accent"
                   }`}
               >
                 {t}
